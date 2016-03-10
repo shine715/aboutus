@@ -26,4 +26,4 @@ gulp.task('watch', function() {
     gulp.watch('./pages/*.less', ['less']);
 });
 gulp.task('default', []);
-gulp.task('init', ['less', js]);
+gulp.task('init', ['less', 'js']);
