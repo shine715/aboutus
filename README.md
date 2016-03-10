@@ -7,4 +7,9 @@
 编译请执行
 `npm install`
 然后
-`npm init`
+`gulp init`
+
+本次升级添加了简单的http服务器,在执行上面两次之后,输入
+`npm start`
+启动服务,然后就可以在浏览器愉快的查看了~
+[welcome](http://localhost:8000)
