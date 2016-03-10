@@ -1,0 +1,23 @@
+{
+  "name": "aboutus",
+  "version": "1.0.0",
+  "description": "百度前端技术学院,小升初复读班小队成员介绍~",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourWildDad/aboutus.git"
+  },
+  "keywords": [
+    "baidu",
+    "ife"
+  ],
+  "author": "xiaoshengchufuduban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YourWildDad/aboutus/issues"
+  },
+  "homepage": "https://github.com/YourWildDad/aboutus#readme"
+}
