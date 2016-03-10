@@ -20,10 +20,10 @@ gulp.task('js', function() {
     gulp.src('./pages/*.js')
         .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('./pages/data'));
+        .pipe(gulp.dest('./pages'));
 });
 gulp.task('watch', function() {
     gulp.watch('./pages/*.less', ['less']);
 });
 gulp.task('default', []);
-gulp.task('init', []);
+gulp.task('init', ['less', js]);
